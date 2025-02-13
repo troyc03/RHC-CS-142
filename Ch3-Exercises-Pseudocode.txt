@@ -1,0 +1,10 @@
+# Algorithm (Exercise 3):
+
+carry[0] = 0
+for i in range(0, i - 1):
+    sum[i] = (x[i] + y[i] + carry[i]) % 16
+    carry[i + 1] = (x[i] + y[i] + carry[i])/16
+    result[i] = sum[i]
+
+
+

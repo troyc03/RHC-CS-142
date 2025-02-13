@@ -1,0 +1,31 @@
+Algorithm 3.1.1 (Integer Addition):
+
+carry_0 = 0 # Current position
+
+# Carry/iterate from the current position through a list of integers
+for i in range(i - 1): 
+	sum (x[i] + y[i] + carry[i]) % 10
+	carry[i+1] = (x[i] + y[i] + carry[i]) / 10
+
+Algorithm 3.1.2 (Integer Subtraction):
+
+# Inititalize integer value 
+borrow = 0
+
+# Subtract x and y (such that y is a negative integer)
+if y[i] <= x[i]:
+	diff = x[i] - y[i]
+else:
+	j = i + 1 
+	while (x[j] = 0) and (j < N):
+		j += 1
+	if j = N:
+		borrow = 1
+		j -= 1
+		x[j] = x[j] + 10
+	while j > i:
+		x[j] -= x[j] - 1
+		j -= 1
+		x[j] += 10
+		diff x[i] - y[i]
+		
